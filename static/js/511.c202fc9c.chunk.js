@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjoin_to_it_test_task=self.webpackChunkjoin_to_it_test_task||[]).push([[511],{511:(t,s,e)=>{e.r(s),e.d(s,{default:()=>_});var n=e(184);const _=()=>(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("h1",{children:"PRODUCTS PAGE"})})}}]);
+//# sourceMappingURL=511.c202fc9c.chunk.js.map

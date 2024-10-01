@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/JoinToItTestTask/static/css/main.7cda0caf.css",
+    "main.js": "/JoinToItTestTask/static/js/main.d50ffc9e.js",
+    "static/js/415.f670da18.chunk.js": "/JoinToItTestTask/static/js/415.f670da18.chunk.js",
+    "static/js/480.7659c824.chunk.js": "/JoinToItTestTask/static/js/480.7659c824.chunk.js",
+    "static/js/718.1511f26c.chunk.js": "/JoinToItTestTask/static/js/718.1511f26c.chunk.js",
+    "static/js/511.c202fc9c.chunk.js": "/JoinToItTestTask/static/js/511.c202fc9c.chunk.js",
+    "static/js/74.0e4025f6.chunk.js": "/JoinToItTestTask/static/js/74.0e4025f6.chunk.js",
+    "static/js/90.eb8bca55.chunk.js": "/JoinToItTestTask/static/js/90.eb8bca55.chunk.js",
+    "static/js/129.d101494d.chunk.js": "/JoinToItTestTask/static/js/129.d101494d.chunk.js",
+    "static/js/536.38ab4066.chunk.js": "/JoinToItTestTask/static/js/536.38ab4066.chunk.js",
+    "static/js/915.8c5267ab.chunk.js": "/JoinToItTestTask/static/js/915.8c5267ab.chunk.js",
+    "static/js/615.de25fbd0.chunk.js": "/JoinToItTestTask/static/js/615.de25fbd0.chunk.js",
+    "index.html": "/JoinToItTestTask/index.html",
+    "main.7cda0caf.css.map": "/JoinToItTestTask/static/css/main.7cda0caf.css.map",
+    "main.d50ffc9e.js.map": "/JoinToItTestTask/static/js/main.d50ffc9e.js.map",
+    "415.f670da18.chunk.js.map": "/JoinToItTestTask/static/js/415.f670da18.chunk.js.map",
+    "480.7659c824.chunk.js.map": "/JoinToItTestTask/static/js/480.7659c824.chunk.js.map",
+    "718.1511f26c.chunk.js.map": "/JoinToItTestTask/static/js/718.1511f26c.chunk.js.map",
+    "511.c202fc9c.chunk.js.map": "/JoinToItTestTask/static/js/511.c202fc9c.chunk.js.map",
+    "74.0e4025f6.chunk.js.map": "/JoinToItTestTask/static/js/74.0e4025f6.chunk.js.map",
+    "90.eb8bca55.chunk.js.map": "/JoinToItTestTask/static/js/90.eb8bca55.chunk.js.map",
+    "129.d101494d.chunk.js.map": "/JoinToItTestTask/static/js/129.d101494d.chunk.js.map",
+    "536.38ab4066.chunk.js.map": "/JoinToItTestTask/static/js/536.38ab4066.chunk.js.map",
+    "915.8c5267ab.chunk.js.map": "/JoinToItTestTask/static/js/915.8c5267ab.chunk.js.map",
+    "615.de25fbd0.chunk.js.map": "/JoinToItTestTask/static/js/615.de25fbd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cda0caf.css",
+    "static/js/main.d50ffc9e.js"
+  ]
+}
