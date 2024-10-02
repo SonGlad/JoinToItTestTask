@@ -13,5 +13,7 @@ export const SharedLayoutStyled = styled.div`
 
     main{
         flex: 1 1 auto;
+        padding: 32px;
+        background-color: ${p => p.theme.color.page_bg};
     }
 `

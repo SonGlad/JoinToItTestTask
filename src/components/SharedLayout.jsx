@@ -4,8 +4,6 @@ import { RotatingLoader } from './CustomLoaders/CustomLoaders';
 import { Header } from './Header/Header';
 import { AsidePanel } from './AsidePanel/AsidePanel';
 import { SharedLayoutStyled } from './SharedLayout.styled';
-import { Container } from './Container/Container';
-
 
 
 export const SharedLayout = () => {
@@ -14,7 +12,6 @@ export const SharedLayout = () => {
   return(
     <SharedLayoutStyled>
       <Header />
-      <Container>
         <div className='main'>
           <AsidePanel/>
           <Suspense fallback={<RotatingLoader/>}>
@@ -23,7 +20,6 @@ export const SharedLayout = () => {
             </main>
           </Suspense>
         </div>
-      </Container>
     </SharedLayoutStyled>
   );
 };
