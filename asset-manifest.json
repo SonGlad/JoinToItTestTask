@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JoinToItTestTask/static/css/main.7cda0caf.css",
-    "main.js": "/JoinToItTestTask/static/js/main.d50ffc9e.js",
+    "main.js": "/JoinToItTestTask/static/js/main.2caee7b0.js",
     "static/js/415.f670da18.chunk.js": "/JoinToItTestTask/static/js/415.f670da18.chunk.js",
     "static/js/480.7659c824.chunk.js": "/JoinToItTestTask/static/js/480.7659c824.chunk.js",
     "static/js/718.1511f26c.chunk.js": "/JoinToItTestTask/static/js/718.1511f26c.chunk.js",
@@ -9,12 +9,28 @@
     "static/js/74.0e4025f6.chunk.js": "/JoinToItTestTask/static/js/74.0e4025f6.chunk.js",
     "static/js/90.eb8bca55.chunk.js": "/JoinToItTestTask/static/js/90.eb8bca55.chunk.js",
     "static/js/129.d101494d.chunk.js": "/JoinToItTestTask/static/js/129.d101494d.chunk.js",
-    "static/js/536.38ab4066.chunk.js": "/JoinToItTestTask/static/js/536.38ab4066.chunk.js",
+    "static/js/536.8d096d1f.chunk.js": "/JoinToItTestTask/static/js/536.8d096d1f.chunk.js",
     "static/js/915.8c5267ab.chunk.js": "/JoinToItTestTask/static/js/915.8c5267ab.chunk.js",
     "static/js/615.de25fbd0.chunk.js": "/JoinToItTestTask/static/js/615.de25fbd0.chunk.js",
+    "static/media/Avatar@2x.png": "/JoinToItTestTask/static/media/Avatar@2x.f4039bf2434f571ce473.png",
     "index.html": "/JoinToItTestTask/index.html",
+    "static/media/help_center.svg": "/JoinToItTestTask/static/media/help_center.c0b2449b39a45af72760eb488a2f4e9e.svg",
+    "static/media/support_icon.svg": "/JoinToItTestTask/static/media/support_icon.c0b2449b39a45af72760eb488a2f4e9e.svg",
+    "static/media/settings.svg": "/JoinToItTestTask/static/media/settings.7de610330e6b31429c5d7203378db41d.svg",
+    "static/media/calendar.svg": "/JoinToItTestTask/static/media/calendar.948edb6f8bac12d1ca99d398e47b44c0.svg",
+    "static/media/icon_search.svg": "/JoinToItTestTask/static/media/icon_search.7d80bb7103f534549fabecd230f1c0ef.svg",
+    "static/media/notification_below.svg": "/JoinToItTestTask/static/media/notification_below.f1e138e3d0b0014ab328b8deef0f4bd0.svg",
+    "static/media/home.svg": "/JoinToItTestTask/static/media/home.3f40e3601c5c63433b1edb5c03e4f4f2.svg",
+    "static/media/mail.svg": "/JoinToItTestTask/static/media/mail.5dc3f7abc19fbb67bccdc5490da745b2.svg",
+    "static/media/bar_chart.svg": "/JoinToItTestTask/static/media/bar_chart.25365813fe8407f7e0132a2b30655e2b.svg",
+    "static/media/main_bell.svg": "/JoinToItTestTask/static/media/main_bell.fafa7cdfc9b48e00b210c3c253b01071.svg",
+    "static/media/notification_main.svg": "/JoinToItTestTask/static/media/notification_main.be5c842506249c6db4cec33d3f7d28d0.svg",
+    "static/media/invoices.svg": "/JoinToItTestTask/static/media/invoices.6699afb30a074e5d97a4b66ad7e7a0f0.svg",
+    "static/media/notification_badge.svg": "/JoinToItTestTask/static/media/notification_badge.31f156ff656e17ae8af770b3b31d6697.svg",
+    "static/media/arrow_down.svg": "/JoinToItTestTask/static/media/arrow_down.13fefc2751e9d2a4312548ce4d5a5d3a.svg",
+    "static/media/bell_ring.svg": "/JoinToItTestTask/static/media/bell_ring.f4bd85d1e0a3c6a897c7995b1d1c6917.svg",
     "main.7cda0caf.css.map": "/JoinToItTestTask/static/css/main.7cda0caf.css.map",
-    "main.d50ffc9e.js.map": "/JoinToItTestTask/static/js/main.d50ffc9e.js.map",
+    "main.2caee7b0.js.map": "/JoinToItTestTask/static/js/main.2caee7b0.js.map",
     "415.f670da18.chunk.js.map": "/JoinToItTestTask/static/js/415.f670da18.chunk.js.map",
     "480.7659c824.chunk.js.map": "/JoinToItTestTask/static/js/480.7659c824.chunk.js.map",
     "718.1511f26c.chunk.js.map": "/JoinToItTestTask/static/js/718.1511f26c.chunk.js.map",
@@ -22,12 +38,12 @@
     "74.0e4025f6.chunk.js.map": "/JoinToItTestTask/static/js/74.0e4025f6.chunk.js.map",
     "90.eb8bca55.chunk.js.map": "/JoinToItTestTask/static/js/90.eb8bca55.chunk.js.map",
     "129.d101494d.chunk.js.map": "/JoinToItTestTask/static/js/129.d101494d.chunk.js.map",
-    "536.38ab4066.chunk.js.map": "/JoinToItTestTask/static/js/536.38ab4066.chunk.js.map",
+    "536.8d096d1f.chunk.js.map": "/JoinToItTestTask/static/js/536.8d096d1f.chunk.js.map",
     "915.8c5267ab.chunk.js.map": "/JoinToItTestTask/static/js/915.8c5267ab.chunk.js.map",
     "615.de25fbd0.chunk.js.map": "/JoinToItTestTask/static/js/615.de25fbd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.d50ffc9e.js"
+    "static/js/main.2caee7b0.js"
   ]
 }

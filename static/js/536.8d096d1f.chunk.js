@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjoin_to_it_test_task=self.webpackChunkjoin_to_it_test_task||[]).push([[536],{536:(t,n,s)=>{s.r(n),s.d(n,{default:()=>_});var e,c=s(168),i=s(978);const r=i.ZP.div(e||(e=(0,c.Z)(["\n\n"])));var h=s(184);const l=()=>(0,h.jsx)(r,{children:(0,h.jsx)("h1",{children:"CALENDAR PAGE"})});var a;const d=i.ZP.section(a||(a=(0,c.Z)(["\n\n"]))),o=t=>{let{children:n}=t;return(0,h.jsx)(d,{children:n})},_=()=>(0,h.jsx)(o,{children:(0,h.jsx)(l,{})})}}]);
+//# sourceMappingURL=536.8d096d1f.chunk.js.map
