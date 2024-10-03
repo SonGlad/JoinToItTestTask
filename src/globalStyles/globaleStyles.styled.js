@@ -14,6 +14,10 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+
+    :root {
+        --fc-today-bg-color: ${p => p.theme.color.table_header_color};
+    }
     
 
     a {

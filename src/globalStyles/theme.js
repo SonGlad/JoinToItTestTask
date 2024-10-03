@@ -17,6 +17,13 @@ export const theme = {
         filter_color: '#0000001A',
         header_arrow: '#A4AFB7',
         header_divider: '#EBEBF2',
+        button_border: '#D7DAE2',
+        table_border: '#EAF0F4',
+        table_header_color: '#F5F6FA',
+        table_header_text: '#A3A6B4',
+        table_number: '#43425D',
+
+
     },
 
     transition: {

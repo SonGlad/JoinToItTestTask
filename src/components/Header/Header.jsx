@@ -43,11 +43,9 @@ export const Header = () => {
         <HeaderStyled>
             <div className="header-container">
                 <div className="logo-container">
-                    <div className="filter-container">
-                        <NavLink to='/'>
-                            <p className="logo-text">IMPEKABLE</p>
-                        </NavLink>
-                    </div>
+                    <NavLink className="filter-container" to='/'>
+                        <p className="logo-text">IMPEKABLE</p>
+                    </NavLink>
                 </div>
                 <div className="search-container">
                     <form className="search-form">

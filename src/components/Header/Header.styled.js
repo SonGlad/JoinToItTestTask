@@ -21,6 +21,8 @@ export const HeaderStyled = styled.header`
 
         & .filter-container{
             padding: 25px 20px;
+            display: flex;
+            align-items: center;
             background-color: ${p => p.theme.color.filter_color};
 
             & .logo-text{

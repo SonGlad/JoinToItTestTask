@@ -6,13 +6,14 @@ export const AsidePanelStyled = styled.aside`
     min-width: 260px;
     background-color: ${p => p.theme.color.aside_bg};
     flex-grow: 1;
-    height: 92.3svh;
+    min-height: 92.3svh;
 
 
     .navigation-item{
         color: ${p => p.theme.color.white_bg};
         font-size: 15px;
         line-height: 19px;
+        margin-top: 6px;
     }
 
     
