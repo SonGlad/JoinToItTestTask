@@ -35,7 +35,7 @@ export const HeaderStyled = styled.header`
     .search-container{
         padding-left: 20px;
         margin-left: 0;
-        width: auto;
+        width: 300px;
 
         & .search-form{
             font-size: 13px;
