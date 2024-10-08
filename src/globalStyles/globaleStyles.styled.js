@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --fc-today-bg-color: ${p => p.theme.color.table_header_color};
+        --fc-highlight-color: ${p => p.theme.color.white_bg};
     }
     
 
@@ -50,5 +51,13 @@ export const GlobalStyle = createGlobalStyle`
 
     *{
         box-sizing: border-box;
+    }
+
+    button{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding: 0;
     }
 `;

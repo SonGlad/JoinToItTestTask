@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const CalendarStyled = styled.div`
     padding: 0 43px;
+    padding-bottom: 103px;
     flex: 1 1;
 
     .title{
@@ -149,7 +150,7 @@ export const CalendarStyled = styled.div`
     }
 
     .fc .fc-daygrid-day-frame {
-        font-family: 400;
+        font-weight: 400;
         font-size: 15px;
         letter-spacing: 0;
         line-height: 12px;
@@ -157,8 +158,11 @@ export const CalendarStyled = styled.div`
     }
     
     .fc .fc-daygrid-day-number {
-        padding: 17px 15px;
+        margin-top: 17px;
+        margin-right: 15px;
+        padding: 0;
         color: ${p => p.theme.color.table_number};
+        background-color: transparent;
     }
 
 
@@ -167,7 +171,6 @@ export const CalendarStyled = styled.div`
     }
 
     
-
     .fc .fc-timegrid-axis-frame {
         display: flex; 
         flex-direction: column;
@@ -189,43 +192,123 @@ export const CalendarStyled = styled.div`
 
 
     .fc .fc-scrollgrid tbody .fc-scrollgrid-section:nth-child(2) {
-        /* background-color: pink;
-        height: 10px; */
         display: none;
     }
+
     
+    .fc .fc-timegrid-now-indicator-container {
+        bottom: 0px;
+        overflow: ${p => p.$activeDayTable ? 'hidden' : 'visible'};
+    }
     
     .fc-direction-ltr .fc-timegrid-now-indicator-arrow {
-        border-bottom-color: none;
-        border-top-color: none;
-        border-width: 0;
-        left: 78px;
-    }
-
-    .fc .fc-timegrid-col-frame {
-        min-height: 100%;
-        position: static;
-    }
-
-    .fc .fc-timegrid-now-indicator-arrow {
+        border: none;
         width: 8px;
         height: 8px;
         background-color: ${p => p.theme.color.text_active};
         border-radius: 50%;
         margin-top: -4px;
-        position: absolute;
-        z-index: 5;
+        transform: translateX(78px);
+        z-index: 100;
     }
+
 
     .fc .fc-timegrid-now-indicator-line {
         border-color: ${p => p.theme.color.text_active};
-        border-style: solid;
-        border-width: 1px 0px 0px;
+        width: 900%;
+        transform: translateX(-22.1%);
+    }
+
+
+    .fc-h-event {
+        background-color: transparent;
+    }
+
+    .fc-v-event {
+        background-color: transparent;
+    }
+
+    .fc-timegrid-event .fc-event-main {
+        padding: 0px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .fc-h-event .fc-event-title {
+        padding: 6px 14px;
+        font-size: 13px;
+        line-height: 17px;
+        border-radius: 4px;
+    }
+
+    .fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start {
+        margin-right: 2px;
+    }
+
+    .fc-direction-ltr .fc-daygrid-event.fc-event-start, .fc-direction-rtl .fc-daygrid-event.fc-event-end {
+        margin-left: 2px;
+    }
+
+    .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+        min-height: 4em;
+        margin-bottom: 0;
+    }
+
+    .total{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        top: 0;
+        right: 0;
+    }
+
+    .fc-daygrid-dot-event {
+        padding: 0px 0px;
+        font-size: 13px;
+        height: 31px;
+        margin-top: 2px;
+        justify-content: flex-start;
+        position: relative;
+        overflow: hidden;
+        color: ${p => p.theme.color.white_bg};
+        transform: translateY(-1px);
+    }
+
+    .fc-daygrid-event-dot {
         position: absolute;
         width: 100%;
+        margin: 0;
+        top: 0px;
         left: 0;
-        right: 0;
-        z-index: 4;
-        transform: translateX(85px);
+        border: 16px solid;
+    }
+
+    .fc-direction-ltr .fc-daygrid-event .fc-event-time {
+        display: none;
+    }
+
+    .fc-daygrid-dot-event .fc-event-title {
+        position: absolute;
+        top: 50%;
+        left: 14px;
+        transform: translate(0%, -50%);
+    }
+
+
+    .fc-timegrid-event .fc-event-time {
+        display: none;
+    }
+
+    .fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link {
+        padding: 3px 14px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .fc-timegrid-event-short .fc-event-title {
+        font-size: 13px;
+        line-height: 17px;
     }
 `
