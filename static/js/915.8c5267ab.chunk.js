@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkjoin_to_it_test_task=self.webpackChunkjoin_to_it_test_task||[]).push([[915],{915:(t,s,e)=>{e.r(s),e.d(s,{default:()=>_});var n=e(184);const _=()=>(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("h1",{children:"HELP CENTER PAGE"})})}}]);
-//# sourceMappingURL=915.8c5267ab.chunk.js.map
